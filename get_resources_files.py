@@ -1,5 +1,7 @@
 import urllib2
 import os
+from os.path import basename
+from urlparse import urlsplit
 
 def main():
     
@@ -26,8 +28,12 @@ def main():
         # Write to a file with specified name.
         # In case it exists, overwrite it.
         # Strip removes newlines and whitespaces on sides.
-        file_name = names[index].strip()
-        file_name = os.path.join(resources_dir_name, file_name)
+        file_name = "resources/" + basename(urlsplit(page_response_obj.url)[2])
+        #file_name = names[index].strip()
+        # file_name = os.path.join(resources_dir_name, file_name)
+        # # Add .pdf extension if no extension
+        # if len(os.path.splitext(file_name)[-1]) == 0:
+        #     file_name += ".pdf"
         new_file = open(file_name, 'w+')
         new_file.write(page_response)
         new_file.close()

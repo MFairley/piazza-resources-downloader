@@ -27,17 +27,3 @@ into the console. If you are using Firefox got to `Developer > Debugger` and the
 `resources_links.txt` and `resources_names.txt`.
 
 6. While being in the repository directory run `python get_resources_files.py`.
-
-## Shorter way
-
-### Use existing links
-
-I have already extracted all the links and filenames for `Machine Learning course in Tum`.
-So in order to download it just do steps `1, 2, 6` from the aforementioned guide.
-
-But be careful while doing this. The links are changed sometimes and you can get no files in that case.
-Better use the first approach or just download the archive.
-
-### `Machine Learning course in Tum` archive
-
-Or you can just download the archived [zip](https://drive.google.com/file/d/0B_6oHpf9oDHRY2c4U19FRnFRSEk/view?usp=sharing)

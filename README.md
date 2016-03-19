@@ -1,9 +1,9 @@
 # Michael's Steps
-1) Navigate to Piazza resources page in Chrome
-2) Right click on page -> Inspect Element -> Console
-3) Paste code from `fetch_urls_and_names.js` into Console and hit return
-4) Copy and paste links into `resources_links.txt` (names no longer needed)
-5) Run `python get_resources_files.py` and files will be downloaded to resources/ folder
+1. Navigate to Piazza resources page in Chrome
+2. Right click on page -> Inspect Element -> Console
+3. Paste code from `fetch_urls_and_names.js` into Console and hit return
+4. Copy and paste links into `resources_links.txt` (names no longer needed)
+5. Run `python get_resources_files.py` and files will be downloaded to resources/ folder
 
 
 # Piazza study resources downloader
